@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <h1>SUCCESS</h1>
+  <script>
+    fetch( "https://official-joke-api.appspot.com/random_joke")
+      .then(res=> {
+        return res.json();
+      })
+      .then(data=>{
+        console.log(data);
+      })
+
+  </script>
+</head>
+</html>
